@@ -16,8 +16,8 @@ export interface User{
     title: string;
     price: number;
     description: string; 
-    category: string 
-//  image: 
+    category: string ;
+    image: any;
         rating: {
             rate:number ;
             count:number;
